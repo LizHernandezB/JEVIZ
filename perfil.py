@@ -1,8 +1,8 @@
 class Perfil:
-    def __init__(self, NombrePerfil, NumeroPerfiles, Infantil):
-        self.NombrePerfil = NombrePerfil(str)
-        self.NumeroPerfiles = NumeroPerfiles(int)
-        self.Infantil = Infantil(bool)
+    def __init__(self, NombrePerfil:str, NumeroPerfiles:int, Infantil:bool):
+        self.NombrePerfil = NombrePerfil
+        self.NumeroPerfiles = NumeroPerfiles
+        self.Infantil = Infantil
 
         
         def GetNombrePerfil (self):
